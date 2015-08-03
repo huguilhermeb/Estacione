@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EsqueceuActivity" >
+
+    <ImageView
+        android:id="@+id/ivLogoEsqueceu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_estacione"
+        android:layout_gravity="center" 
+        android:contentDescription="@string/descricao_logo"/>
+    
+     <TextView
+        android:id="@+id/tvComplementoLogoEsqueceu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/complemento_logo"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="10dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/esqueceu_senha"
+        android:paddingTop="35dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/informe_email"
+        android:paddingTop="15dp" 
+        android:paddingBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/edEmailEsqueceuSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+    
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+		android:textSize="17sp"
+        android:padding="10dp"
+        android:text="@string/enviar"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/botao"/>
+
+</LinearLayout>

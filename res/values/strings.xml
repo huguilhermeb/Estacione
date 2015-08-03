@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Estacione</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="complemento_logo">Recife Antigo</string>
+    <string name="login">Efetue o login</string>
+    <string name="cadastro">Cadastre-se</string>
+    <string name="entrar">Entrar</string>
+    <string name="esqueceu_senha">Esqueceu a senha?</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="title_activity_cadastro">CadastroActivity</string>
+    <string name="nome">Nome</string>
+    <string name="nome_a">Informe o seu nome</string>
+    <string name="email_a">Informe o seu e-mail</string>
+    <string name="senha_a">Informe a sua senha</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="descricao_logo">Estacione - Recife Antigo</string>
+    <string name="bem_vindo">Bem vindo, </string>
+    <string name="conteudo">Conteúdo</string>
+    <string name="publicidade">Espaço destinado a publicidade</string>
+    <string name="title_activity_esqueceu">EsqueceuActivity</string>
+    <string name="informe_email">Informe o e-mail castrado que enviaremos a sua senha</string>
+    <string name="hint_email">fulano@beltrano.com</string>
+    <string name="enviar">Enviar</string>
+    <string name="nao_possui_cadastro">Ainda não possui cadastro?</string>
+
+</resources>

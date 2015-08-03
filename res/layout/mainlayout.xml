@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_estacione"
+        android:layout_gravity="center"
+        android:contentDescription="@string/descricao_logo"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/complemento_logo"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="5dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:inputType="text"  
+        android:paddingTop="45dp"
+        android:hint="@string/email">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"  
+        android:paddingTop="20dp"
+        android:hint="@string/senha"
+        android:layout_marginBottom="10dp"/>
+    
+      <TextView
+        android:id="@+id/tvEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/entrar" 
+        android:gravity="center"
+        android:textSize="17sp"
+        android:padding="8dp"
+        android:clickable="true"
+        android:background="@drawable/botao"/>
+
+    <TextView
+        android:id="@+id/tvEsqueceuSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/esqueceu_senha" 
+        android:clickable="true"
+        android:textColor="#505050"
+        android:textStyle="italic"
+        android:gravity="right"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"/>
+    
+     <ImageView
+        android:id="@+id/ivLinha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/linha"
+        android:layout_gravity="center"
+        android:contentDescription="@string/descricao_logo"/>
+
+    <TextView
+        android:id="@+id/tvNaoPossui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nao_possui_cadastro"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:clickable="true"
+        android:textColor="#505050"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"/>
+
+    
+    <TextView
+        android:id="@+id/tvCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastro" 
+        android:gravity="center"
+        android:textSize="17sp"
+        android:padding="10dp"
+        android:clickable="true"
+        android:background="@drawable/seletor_botao"/>
+  
+
+</LinearLayout>
